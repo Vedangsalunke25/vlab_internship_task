@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 'poppins', sans-serif;
+}
+body{
+    background: rgb(219, 225, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #bae9ea;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0, 0.1);
+}
+.container .left_side{
+    position: relative;
+    background: #0c0047;
+    padding: 40px;
+}
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255,255, 255,0.2);
+}
+.profiletext .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profiletext .imgBx img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.profiletext h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profiletext h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding: 40px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo_education  ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 300;
+    
+}
+.contactInfo_language  ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 300;
+    
+}
+.right_side{
+    position: absolute;
+    left: 40%;
+}
+.title1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+
+.information p{
+    margin: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(255,255, 255,0.2);
+    color: black;
+}
+
+
+
+.history UL li{
+    
+    list-style: none;
+    margin: 10px 0;
+    color: rgb(16, 13, 13);
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project UL li{
+    margin: 10px 0;
+    color: rgb(16, 13, 13);
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hobbies UL li{
+    margin: 10px 0;
+    color: rgb(16, 13, 13);
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
